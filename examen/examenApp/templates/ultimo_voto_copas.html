@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último Voto de la Copa</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0; }
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Último Voto de {{ copa.nombre }}</h1>
+    {% if ultimo_voto %}
+        <p><strong>Puntuación:</strong> {{ ultimo_voto.puntuacion }}</p>
+        <p><strong>Comentario:</strong> {{ ultimo_voto.comentario }}</p>
+        <p><strong>Cliente:</strong> {{ ultimo_voto.cliente.nombre }}</p>
+        <p><strong>Fecha:</strong> {{ ultimo_voto.fecha_hora|date:"d/m/Y H:i" }}</p>
+    {% else %}
+        <p>No hay votos para esta copa.</p>
+    {% endif %}
+    </div>
+</body>
+</html>

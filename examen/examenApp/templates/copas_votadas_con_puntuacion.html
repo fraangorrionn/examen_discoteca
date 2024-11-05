@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Copas Votadas con Puntuación 3</title>
+   <style>
+       body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0; }
+       .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+       h1 { text-align: center; color: #007bff; }
+       ul { list-style-type: none; padding: 0; }
+       li { padding: 10px 0; border-bottom: 1px solid #ddd; }
+   </style>
+</head>
+<body>
+   <div class="container">
+       <h1>Copas Votadas con Puntuación 3</h1>
+       {% if copas %}
+           <ul>
+               {% for copa in copas %}
+               <li>{{ copa.nombre }} - Precio: ${{ copa.precio }}</li>
+               {% endfor %}
+           </ul>
+       {% else %}
+           <p>No se encontraron productos con una puntuación de 3 para este usuario.</p>
+       {% endif %}
+   </div>
+</body>
+</html>

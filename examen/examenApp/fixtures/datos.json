@@ -1,0 +1,3276 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 7,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 7,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 7,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 7,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add copa",
+        "content_type": 8,
+        "codename": "add_copa"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change copa",
+        "content_type": 8,
+        "codename": "change_copa"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete copa",
+        "content_type": 8,
+        "codename": "delete_copa"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view copa",
+        "content_type": 8,
+        "codename": "view_copa"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cuenta bancaria",
+        "content_type": 9,
+        "codename": "add_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cuenta bancaria",
+        "content_type": 9,
+        "codename": "change_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cuenta bancaria",
+        "content_type": 9,
+        "codename": "delete_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cuenta bancaria",
+        "content_type": 9,
+        "codename": "view_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add favoritas",
+        "content_type": 10,
+        "codename": "add_favoritas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change favoritas",
+        "content_type": 10,
+        "codename": "change_favoritas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete favoritas",
+        "content_type": 10,
+        "codename": "delete_favoritas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view favoritas",
+        "content_type": 10,
+        "codename": "view_favoritas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add voto",
+        "content_type": 11,
+        "codename": "add_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change voto",
+        "content_type": 11,
+        "codename": "change_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete voto",
+        "content_type": 11,
+        "codename": "delete_voto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view voto",
+        "content_type": 11,
+        "codename": "view_voto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "copa"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "cuentabancaria"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "favoritas"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "voto"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 1,
+    "fields": {
+        "nombre": "Mrs college food like speech somebody edge. Produce indicate knowledge later.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 2,
+    "fields": {
+        "nombre": "Enter class social size home front interesting. Boy notice professor role range economy what.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 3,
+    "fields": {
+        "nombre": "Talk when kid else its decade same. Develop artist method.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 4,
+    "fields": {
+        "nombre": "Challenge just factor summer determine talk. Power admit remember policy hope kitchen test send.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 5,
+    "fields": {
+        "nombre": "Stage group right house act machine. Travel unit write glass.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 6,
+    "fields": {
+        "nombre": "Outside our race although. Knowledge car travel laugh real plan establish give.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 7,
+    "fields": {
+        "nombre": "Agreement early so window believe. Raise recently remember across six. Garden car wall red.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 8,
+    "fields": {
+        "nombre": "Many education only stock hot task. End fear measure. Cold experience child morning life.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 9,
+    "fields": {
+        "nombre": "Always forward work plant one man. Activity must later indicate somebody cost behavior.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 10,
+    "fields": {
+        "nombre": "Other full mouth peace price. Ok yeah lay ago and including. Market enjoy must industry.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 11,
+    "fields": {
+        "nombre": "Individual similar guess surface same resource amount. Practice talk analysis hour.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 12,
+    "fields": {
+        "nombre": "Organization factor learn front not finally. Present discussion theory keep law.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 13,
+    "fields": {
+        "nombre": "Per to picture identify stock. Husband four up likely great speech might.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 14,
+    "fields": {
+        "nombre": "Agreement forget city north increase within analysis.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 15,
+    "fields": {
+        "nombre": "Lead region threat sing but small rule I. Guess husband trip cost interest letter.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 16,
+    "fields": {
+        "nombre": "Move organization son design field. Exist then cost student local. Watch case current line.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 17,
+    "fields": {
+        "nombre": "Alone since blue read. Color together hard look new recent.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 18,
+    "fields": {
+        "nombre": "Eight record water against smile wish boy.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 19,
+    "fields": {
+        "nombre": "Career best positive product as house. Industry feel begin how room arm.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 20,
+    "fields": {
+        "nombre": "Whatever avoid fall on.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 21,
+    "fields": {
+        "nombre": "Several federal response spend free. Coach seven become. Cut just help set.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 22,
+    "fields": {
+        "nombre": "Security buy scene item machine wrong. Chance however unit three.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 23,
+    "fields": {
+        "nombre": "Various war air artist radio crime. Support simple camera down.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 24,
+    "fields": {
+        "nombre": "Wind concern lay piece born network. Mention cut environment available ten.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 25,
+    "fields": {
+        "nombre": "Democratic concern participant them. According American unit able.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 26,
+    "fields": {
+        "nombre": "Democrat effect gun present. Specific read value relationship next leader. Person own remain media.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 27,
+    "fields": {
+        "nombre": "Director care world sound action forward.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 28,
+    "fields": {
+        "nombre": "Catch his fish agreement. Away series party reality finish agent she. Entire service they.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 29,
+    "fields": {
+        "nombre": "Far relate material. Top yard and back candidate language thank.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.cliente",
+    "pk": 30,
+    "fields": {
+        "nombre": "One which those well strong.",
+        "correo": "default@example.com",
+        "direccion": "sin_direccion"
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 1,
+    "fields": {
+        "nombre": "Bank care protect management laugh. Part vote least.",
+        "precio": "0.88",
+        "stock": 24774
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 2,
+    "fields": {
+        "nombre": "Measure fast set six though society sign. Enjoy accept hit program perhaps. If sea attorney.",
+        "precio": "0.91",
+        "stock": -26043
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 3,
+    "fields": {
+        "nombre": "Under open determine crime market enough they. Throw play TV. Range walk another purpose imagine.",
+        "precio": "0.04",
+        "stock": -31609
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 4,
+    "fields": {
+        "nombre": "Television result gas wind foot spring. Affect cover out a matter summer performance poor.",
+        "precio": "0.24",
+        "stock": 28893
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 5,
+    "fields": {
+        "nombre": "Read away ground east. Hold structure reduce rest. Ball still dark prove rest.",
+        "precio": "0.20",
+        "stock": -10853
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 6,
+    "fields": {
+        "nombre": "Dog data food have. To develop option wind. Wait those increase allow serve like then blue.",
+        "precio": "0.38",
+        "stock": 2641
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 7,
+    "fields": {
+        "nombre": "Sell ever campaign ago get from interesting.",
+        "precio": "0.26",
+        "stock": 12381
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 8,
+    "fields": {
+        "nombre": "Although glass would other mission image kid.",
+        "precio": "0.44",
+        "stock": -17582
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 9,
+    "fields": {
+        "nombre": "Bar early fish allow. Future pressure kitchen throw clear keep sort.",
+        "precio": "0.03",
+        "stock": 31802
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 10,
+    "fields": {
+        "nombre": "Town maybe everything. Nation research owner certainly. Cover will cause enough part line.",
+        "precio": "0.51",
+        "stock": 5596
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 11,
+    "fields": {
+        "nombre": "Care over training. Few seven six carry energy quite within. Worker act must cover example.",
+        "precio": "0.84",
+        "stock": -28687
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 12,
+    "fields": {
+        "nombre": "Language remain personal create method beyond huge. Large attorney green hotel whom bad.",
+        "precio": "0.76",
+        "stock": 31798
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 13,
+    "fields": {
+        "nombre": "Western executive head. Card though very special protect.\nSocial others create set worker.",
+        "precio": "0.54",
+        "stock": -7047
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 14,
+    "fields": {
+        "nombre": "Huge less list into with agreement ahead. Behind stand term say card key attorney.",
+        "precio": "0.90",
+        "stock": -20258
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 15,
+    "fields": {
+        "nombre": "Nothing research set magazine front term success. Time value ok able teacher take table.",
+        "precio": "0.08",
+        "stock": -18963
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 16,
+    "fields": {
+        "nombre": "Seem which law general family yes. Official everything gas democratic on.",
+        "precio": "0.56",
+        "stock": 10379
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 17,
+    "fields": {
+        "nombre": "Experience relate identify start thought teach. Child fine we watch will talk say. Tend yes green.",
+        "precio": "0.94",
+        "stock": 17968
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 18,
+    "fields": {
+        "nombre": "Add benefit stage value bed. National song political employee deep.",
+        "precio": "0.80",
+        "stock": 17957
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 19,
+    "fields": {
+        "nombre": "Yeah enter item those. Experience upon often step. Enter customer away mission control case.",
+        "precio": "0.25",
+        "stock": -25848
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 20,
+    "fields": {
+        "nombre": "Truth would guy camera cup nice. Size across charge me.",
+        "precio": "0.89",
+        "stock": -802
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 21,
+    "fields": {
+        "nombre": "Father be prove will market prove feel. Window father power voice.",
+        "precio": "0.16",
+        "stock": 3144
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 22,
+    "fields": {
+        "nombre": "Manage even her radio light television thousand. Nor know throughout plan past.",
+        "precio": "0.90",
+        "stock": -31251
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 23,
+    "fields": {
+        "nombre": "Soon when become decade. Air often stock south. Establish word house fill traditional another.",
+        "precio": "0.56",
+        "stock": -13191
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 24,
+    "fields": {
+        "nombre": "Thus site a tonight. Age animal evening arm generation.",
+        "precio": "0.91",
+        "stock": 20242
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 25,
+    "fields": {
+        "nombre": "Present film red physical. Seven summer study. Camera positive put yet. Him senior month far six.",
+        "precio": "0.64",
+        "stock": 17897
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 26,
+    "fields": {
+        "nombre": "Beat avoid teach each. Wall strategy blue try. Image building shake special among movie require.",
+        "precio": "0.66",
+        "stock": 1096
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 27,
+    "fields": {
+        "nombre": "Board what hit information maintain feeling.",
+        "precio": "0.83",
+        "stock": -12986
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 28,
+    "fields": {
+        "nombre": "Item significant firm stop pretty ever. Then purpose half start heavy. Southern only pull.",
+        "precio": "0.51",
+        "stock": 11399
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 29,
+    "fields": {
+        "nombre": "Continue or set if boy. Wish she run.",
+        "precio": "0.38",
+        "stock": 28108
+    }
+},
+{
+    "model": "examenApp.copa",
+    "pk": 30,
+    "fields": {
+        "nombre": "Owner color peace short sort up. Role eat their weight.",
+        "precio": "0.61",
+        "stock": -18808
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 1,
+    "fields": {
+        "cliente": 1,
+        "copa": 17,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 2,
+    "fields": {
+        "cliente": 1,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 3,
+    "fields": {
+        "cliente": 1,
+        "copa": 26,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 4,
+    "fields": {
+        "cliente": 1,
+        "copa": 19,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 5,
+    "fields": {
+        "cliente": 1,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 6,
+    "fields": {
+        "cliente": 1,
+        "copa": 9,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 7,
+    "fields": {
+        "cliente": 2,
+        "copa": 16,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 8,
+    "fields": {
+        "cliente": 2,
+        "copa": 26,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 9,
+    "fields": {
+        "cliente": 2,
+        "copa": 29,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 10,
+    "fields": {
+        "cliente": 3,
+        "copa": 28,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 11,
+    "fields": {
+        "cliente": 3,
+        "copa": 21,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 12,
+    "fields": {
+        "cliente": 3,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 13,
+    "fields": {
+        "cliente": 3,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 14,
+    "fields": {
+        "cliente": 3,
+        "copa": 29,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 15,
+    "fields": {
+        "cliente": 3,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 16,
+    "fields": {
+        "cliente": 3,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 17,
+    "fields": {
+        "cliente": 4,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 18,
+    "fields": {
+        "cliente": 4,
+        "copa": 14,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 19,
+    "fields": {
+        "cliente": 4,
+        "copa": 27,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 20,
+    "fields": {
+        "cliente": 5,
+        "copa": 14,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 21,
+    "fields": {
+        "cliente": 5,
+        "copa": 23,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 22,
+    "fields": {
+        "cliente": 6,
+        "copa": 23,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 23,
+    "fields": {
+        "cliente": 6,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 24,
+    "fields": {
+        "cliente": 6,
+        "copa": 12,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 25,
+    "fields": {
+        "cliente": 6,
+        "copa": 28,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 26,
+    "fields": {
+        "cliente": 6,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 27,
+    "fields": {
+        "cliente": 7,
+        "copa": 24,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 28,
+    "fields": {
+        "cliente": 7,
+        "copa": 9,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 29,
+    "fields": {
+        "cliente": 7,
+        "copa": 12,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 30,
+    "fields": {
+        "cliente": 7,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 31,
+    "fields": {
+        "cliente": 7,
+        "copa": 28,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 32,
+    "fields": {
+        "cliente": 7,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 33,
+    "fields": {
+        "cliente": 7,
+        "copa": 5,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 34,
+    "fields": {
+        "cliente": 8,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 35,
+    "fields": {
+        "cliente": 8,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 36,
+    "fields": {
+        "cliente": 8,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 37,
+    "fields": {
+        "cliente": 8,
+        "copa": 5,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 38,
+    "fields": {
+        "cliente": 9,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 39,
+    "fields": {
+        "cliente": 9,
+        "copa": 30,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 40,
+    "fields": {
+        "cliente": 9,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 41,
+    "fields": {
+        "cliente": 9,
+        "copa": 21,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 42,
+    "fields": {
+        "cliente": 10,
+        "copa": 8,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 43,
+    "fields": {
+        "cliente": 10,
+        "copa": 9,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 44,
+    "fields": {
+        "cliente": 11,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 45,
+    "fields": {
+        "cliente": 12,
+        "copa": 23,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 46,
+    "fields": {
+        "cliente": 12,
+        "copa": 17,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 47,
+    "fields": {
+        "cliente": 12,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 48,
+    "fields": {
+        "cliente": 12,
+        "copa": 10,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 49,
+    "fields": {
+        "cliente": 12,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 50,
+    "fields": {
+        "cliente": 13,
+        "copa": 17,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 51,
+    "fields": {
+        "cliente": 13,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 52,
+    "fields": {
+        "cliente": 13,
+        "copa": 9,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 53,
+    "fields": {
+        "cliente": 13,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 54,
+    "fields": {
+        "cliente": 13,
+        "copa": 24,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 55,
+    "fields": {
+        "cliente": 13,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 56,
+    "fields": {
+        "cliente": 14,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 57,
+    "fields": {
+        "cliente": 14,
+        "copa": 12,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 58,
+    "fields": {
+        "cliente": 14,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 59,
+    "fields": {
+        "cliente": 14,
+        "copa": 25,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 60,
+    "fields": {
+        "cliente": 14,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 61,
+    "fields": {
+        "cliente": 15,
+        "copa": 29,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 62,
+    "fields": {
+        "cliente": 15,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 63,
+    "fields": {
+        "cliente": 15,
+        "copa": 8,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 64,
+    "fields": {
+        "cliente": 15,
+        "copa": 9,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 65,
+    "fields": {
+        "cliente": 16,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 66,
+    "fields": {
+        "cliente": 16,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 67,
+    "fields": {
+        "cliente": 16,
+        "copa": 6,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 68,
+    "fields": {
+        "cliente": 16,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 69,
+    "fields": {
+        "cliente": 16,
+        "copa": 19,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 70,
+    "fields": {
+        "cliente": 16,
+        "copa": 7,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 71,
+    "fields": {
+        "cliente": 17,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 72,
+    "fields": {
+        "cliente": 17,
+        "copa": 19,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 73,
+    "fields": {
+        "cliente": 17,
+        "copa": 23,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 74,
+    "fields": {
+        "cliente": 17,
+        "copa": 30,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 75,
+    "fields": {
+        "cliente": 17,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 76,
+    "fields": {
+        "cliente": 17,
+        "copa": 4,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 77,
+    "fields": {
+        "cliente": 17,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 78,
+    "fields": {
+        "cliente": 18,
+        "copa": 6,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 79,
+    "fields": {
+        "cliente": 18,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 80,
+    "fields": {
+        "cliente": 19,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 81,
+    "fields": {
+        "cliente": 19,
+        "copa": 3,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 82,
+    "fields": {
+        "cliente": 19,
+        "copa": 24,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 83,
+    "fields": {
+        "cliente": 19,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 84,
+    "fields": {
+        "cliente": 19,
+        "copa": 23,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 85,
+    "fields": {
+        "cliente": 19,
+        "copa": 4,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 86,
+    "fields": {
+        "cliente": 20,
+        "copa": 5,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 87,
+    "fields": {
+        "cliente": 20,
+        "copa": 29,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 88,
+    "fields": {
+        "cliente": 20,
+        "copa": 26,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 89,
+    "fields": {
+        "cliente": 20,
+        "copa": 24,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 90,
+    "fields": {
+        "cliente": 20,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 91,
+    "fields": {
+        "cliente": 21,
+        "copa": 1,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 92,
+    "fields": {
+        "cliente": 21,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 93,
+    "fields": {
+        "cliente": 21,
+        "copa": 14,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 94,
+    "fields": {
+        "cliente": 21,
+        "copa": 10,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 95,
+    "fields": {
+        "cliente": 21,
+        "copa": 4,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 96,
+    "fields": {
+        "cliente": 21,
+        "copa": 24,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 97,
+    "fields": {
+        "cliente": 22,
+        "copa": 10,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 98,
+    "fields": {
+        "cliente": 22,
+        "copa": 26,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 99,
+    "fields": {
+        "cliente": 22,
+        "copa": 8,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 100,
+    "fields": {
+        "cliente": 22,
+        "copa": 4,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 101,
+    "fields": {
+        "cliente": 23,
+        "copa": 2,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 102,
+    "fields": {
+        "cliente": 23,
+        "copa": 6,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 103,
+    "fields": {
+        "cliente": 23,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 104,
+    "fields": {
+        "cliente": 24,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 105,
+    "fields": {
+        "cliente": 25,
+        "copa": 11,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 106,
+    "fields": {
+        "cliente": 25,
+        "copa": 4,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 107,
+    "fields": {
+        "cliente": 26,
+        "copa": 6,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 108,
+    "fields": {
+        "cliente": 27,
+        "copa": 13,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 109,
+    "fields": {
+        "cliente": 27,
+        "copa": 28,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 110,
+    "fields": {
+        "cliente": 27,
+        "copa": 20,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 111,
+    "fields": {
+        "cliente": 27,
+        "copa": 21,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 112,
+    "fields": {
+        "cliente": 27,
+        "copa": 27,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 113,
+    "fields": {
+        "cliente": 27,
+        "copa": 15,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 114,
+    "fields": {
+        "cliente": 28,
+        "copa": 26,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 115,
+    "fields": {
+        "cliente": 28,
+        "copa": 22,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 116,
+    "fields": {
+        "cliente": 28,
+        "copa": 18,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 117,
+    "fields": {
+        "cliente": 29,
+        "copa": 14,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 118,
+    "fields": {
+        "cliente": 30,
+        "copa": 7,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 119,
+    "fields": {
+        "cliente": 30,
+        "copa": 17,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 120,
+    "fields": {
+        "cliente": 30,
+        "copa": 27,
+        "fecha_agregado": "2024-11-05",
+        "prioridad": 1,
+        "notas": ""
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 121,
+    "fields": {
+        "cliente": 17,
+        "copa": 30,
+        "fecha_agregado": "2018-09-15",
+        "prioridad": 1,
+        "notas": "Second mention standard. Wonder media laugh late find book. Very up opportunity place possible.\nActivity other red say quite. Forget father through guess idea write else."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 122,
+    "fields": {
+        "cliente": 7,
+        "copa": 18,
+        "fecha_agregado": "2024-08-04",
+        "prioridad": 1,
+        "notas": "Spring go choice article trial. Level or discover cup. Lay difficult though piece kitchen own security. Oil war process."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 123,
+    "fields": {
+        "cliente": 27,
+        "copa": 17,
+        "fecha_agregado": "2022-12-05",
+        "prioridad": 1,
+        "notas": "Certain above accept reality. Push treatment store amount understand college. Research senior question voice site special response."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 124,
+    "fields": {
+        "cliente": 12,
+        "copa": 26,
+        "fecha_agregado": "1996-03-06",
+        "prioridad": 1,
+        "notas": "Big budget change lead head order. Reduce state western line.\nWhole along lay activity choose including certain. Word those speech rich. Consider more admit small small."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 125,
+    "fields": {
+        "cliente": 30,
+        "copa": 26,
+        "fecha_agregado": "1986-12-02",
+        "prioridad": 1,
+        "notas": "Use cover enter discussion. Bank system hotel he type four. Forward maybe the month.\nMy art risk stock sport model. Data interview use side."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 126,
+    "fields": {
+        "cliente": 22,
+        "copa": 6,
+        "fecha_agregado": "1991-01-25",
+        "prioridad": 1,
+        "notas": "Organization natural know case when support.\nStage campaign marriage. Value build tree magazine age near.\nHe born military peace matter. Cold ten Democrat to collection other."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 127,
+    "fields": {
+        "cliente": 15,
+        "copa": 29,
+        "fecha_agregado": "2015-05-15",
+        "prioridad": 1,
+        "notas": "Oil table seat agree in improve from. Between great TV art crime pattern.\nDark wind design course. Air star its at.\nCurrent player four.\nMost within sort character. At she car."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 128,
+    "fields": {
+        "cliente": 11,
+        "copa": 22,
+        "fecha_agregado": "2016-07-13",
+        "prioridad": 1,
+        "notas": "Yard large natural right. Small American eye how either even. Mean man chair lawyer home throughout song."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 129,
+    "fields": {
+        "cliente": 28,
+        "copa": 17,
+        "fecha_agregado": "2009-01-31",
+        "prioridad": 1,
+        "notas": "Spend western by coach age. Draw eye clear foot.\nDecade start choice adult current control. Few skin finally up."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 130,
+    "fields": {
+        "cliente": 5,
+        "copa": 20,
+        "fecha_agregado": "2000-02-06",
+        "prioridad": 1,
+        "notas": "Nor future mention huge decision suffer that challenge. Wrong check generation toward six born trade."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 131,
+    "fields": {
+        "cliente": 30,
+        "copa": 23,
+        "fecha_agregado": "1974-05-10",
+        "prioridad": 1,
+        "notas": "Hot through garden lead cup. Read space star and my. Media heavy with side thousand.\nFuture cold human one day store always. Maybe their local. Old paper material central."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 132,
+    "fields": {
+        "cliente": 17,
+        "copa": 16,
+        "fecha_agregado": "1987-07-16",
+        "prioridad": 1,
+        "notas": "Finally court know company. Offer clearly popular visit finish. Arrive somebody party sit sure crime."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 133,
+    "fields": {
+        "cliente": 15,
+        "copa": 27,
+        "fecha_agregado": "1974-10-17",
+        "prioridad": 1,
+        "notas": "Force stop we. About education sea suffer several according determine. Middle economy serve recent particular price structure much."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 134,
+    "fields": {
+        "cliente": 5,
+        "copa": 1,
+        "fecha_agregado": "1979-08-12",
+        "prioridad": 1,
+        "notas": "Focus organization give standard. Perform yourself take memory cause discuss. Expert parent ahead sister."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 135,
+    "fields": {
+        "cliente": 25,
+        "copa": 4,
+        "fecha_agregado": "2024-09-16",
+        "prioridad": 1,
+        "notas": "Scientist film through imagine none. Relate state magazine sure order. Fire fight professional professional."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 136,
+    "fields": {
+        "cliente": 29,
+        "copa": 6,
+        "fecha_agregado": "1978-05-07",
+        "prioridad": 1,
+        "notas": "New possible detail heavy yes address. Leader rather cause garden school glass benefit assume.\nNone worry Democrat learn final early."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 137,
+    "fields": {
+        "cliente": 29,
+        "copa": 20,
+        "fecha_agregado": "1997-02-02",
+        "prioridad": 1,
+        "notas": "Line car film tell over maybe my. Me body professor matter peace truth. Example standard series skin."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 138,
+    "fields": {
+        "cliente": 9,
+        "copa": 21,
+        "fecha_agregado": "2013-09-22",
+        "prioridad": 1,
+        "notas": "Usually person blood. Young billion voice three group large treatment.\nWatch life among look put and talk. All face same house sure."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 139,
+    "fields": {
+        "cliente": 30,
+        "copa": 5,
+        "fecha_agregado": "1988-01-18",
+        "prioridad": 1,
+        "notas": "Minute people into. Clearly enter project truth down. Behavior get day consider state sport energy. Push serious next various.\nStar deal nearly past hundred artist. Front care these ok mention."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 140,
+    "fields": {
+        "cliente": 22,
+        "copa": 4,
+        "fecha_agregado": "1991-03-16",
+        "prioridad": 1,
+        "notas": "Tonight what wait single fine responsibility. Social lawyer away edge similar civil meet energy. Expert where thought nature."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 141,
+    "fields": {
+        "cliente": 19,
+        "copa": 7,
+        "fecha_agregado": "1977-04-07",
+        "prioridad": 1,
+        "notas": "Success nation protect require total job. Should fire with. Pick turn rule moment argue.\nInside others party simple style town. Establish too voice check. Rest establish court who."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 142,
+    "fields": {
+        "cliente": 12,
+        "copa": 19,
+        "fecha_agregado": "1982-04-04",
+        "prioridad": 1,
+        "notas": "Me it purpose. Continue green because represent issue sit time.\nHer put word require movie. Again during beat product buy owner. Watch wish produce impact."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 143,
+    "fields": {
+        "cliente": 1,
+        "copa": 30,
+        "fecha_agregado": "2013-08-13",
+        "prioridad": 1,
+        "notas": "Huge accept develop heart management officer economic.\nMusic fish view leader. Phone remember bed group professor mother allow. Forward police civil page. Exactly join news meet despite various."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 144,
+    "fields": {
+        "cliente": 29,
+        "copa": 20,
+        "fecha_agregado": "1983-02-19",
+        "prioridad": 1,
+        "notas": "Short whole themselves involve hot culture. Evidence argue price imagine.\nOn fall rather federal seek total for. Produce adult speech would."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 145,
+    "fields": {
+        "cliente": 16,
+        "copa": 9,
+        "fecha_agregado": "1998-03-19",
+        "prioridad": 1,
+        "notas": "Appear Republican wonder central white. Break with soon process teacher.\nStore behind deal himself. Prepare pattern significant paper question ago institution look."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 146,
+    "fields": {
+        "cliente": 16,
+        "copa": 2,
+        "fecha_agregado": "2006-08-20",
+        "prioridad": 1,
+        "notas": "Dinner eye media. Soon public list purpose who. Development describe pay data past standard window.\nWindow music choose out beyond. Early field that hit. Great certainly appear including."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 147,
+    "fields": {
+        "cliente": 26,
+        "copa": 30,
+        "fecha_agregado": "2009-07-21",
+        "prioridad": 1,
+        "notas": "They both guy send civil your hope. Draw general list land. If medical movie available indeed them.\nGroup blood laugh bank including. All authority among news his process."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 148,
+    "fields": {
+        "cliente": 27,
+        "copa": 13,
+        "fecha_agregado": "1980-03-29",
+        "prioridad": 1,
+        "notas": "Any have specific state deep win strong. Force explain nothing candidate.\nRadio painting bit station shoulder condition no garden."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 149,
+    "fields": {
+        "cliente": 25,
+        "copa": 8,
+        "fecha_agregado": "1981-11-28",
+        "prioridad": 1,
+        "notas": "Pm imagine five hospital because. Nothing result light. Close yourself give.\nGreat visit laugh usually magazine future. Girl budget upon give. Player remain improve level. Kitchen can between case."
+    }
+},
+{
+    "model": "examenApp.favoritas",
+    "pk": 150,
+    "fields": {
+        "cliente": 28,
+        "copa": 23,
+        "fecha_agregado": "2018-06-22",
+        "prioridad": 1,
+        "notas": "Lose safe clear ago. Single manage rest kitchen ten probably. Last baby someone.\nPresident good stay. Pull back ability yes commercial Mrs follow hold."
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 1,
+    "fields": {
+        "cliente": 21,
+        "copa": 7,
+        "puntuacion": 17105,
+        "comentario": "Amount agree bag music example think. Difficult happen stock.\nUse hope heavy full. Hair resource against occur.\nAs nearly sure everyone. Apply create Democrat high specific too might.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 2,
+    "fields": {
+        "cliente": 8,
+        "copa": 7,
+        "puntuacion": 11289,
+        "comentario": "Yet my success. Approach will the traditional story sure doctor. Piece next they small whatever term firm.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 3,
+    "fields": {
+        "cliente": 5,
+        "copa": 9,
+        "puntuacion": -22379,
+        "comentario": "Have sit hundred within third book. Born nice stay watch whatever. Coach television network son wait father.\nStudy put response growth all ok notice into. Order control remember before open chance.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 4,
+    "fields": {
+        "cliente": 30,
+        "copa": 1,
+        "puntuacion": 3957,
+        "comentario": "High visit candidate mouth job. Herself street way. Challenge morning imagine ready old lose expert.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 5,
+    "fields": {
+        "cliente": 19,
+        "copa": 7,
+        "puntuacion": 19860,
+        "comentario": "Allow generation tree team big free. Factor detail consider type character local.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 6,
+    "fields": {
+        "cliente": 5,
+        "copa": 14,
+        "puntuacion": 10549,
+        "comentario": "Keep crime later street serve. Technology state mean everything.\nArrive glass quickly east. Crime far avoid eat town bit manage.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 7,
+    "fields": {
+        "cliente": 9,
+        "copa": 18,
+        "puntuacion": -25004,
+        "comentario": "Mission final court Congress form establish final. Safe manage talk left would prevent address. Have relate production strong language require stand.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 8,
+    "fields": {
+        "cliente": 15,
+        "copa": 18,
+        "puntuacion": 11269,
+        "comentario": "Investment instead plant hour because way. Mouth military research positive study. Gas century push focus radio guy shake threat.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 9,
+    "fields": {
+        "cliente": 21,
+        "copa": 11,
+        "puntuacion": -20280,
+        "comentario": "Without lead reduce. Buy to budget others east heavy. Western someone or suggest.\nRelationship view structure staff. Hit brother move young support.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 10,
+    "fields": {
+        "cliente": 7,
+        "copa": 23,
+        "puntuacion": -23694,
+        "comentario": "Involve five interview indeed leader early even. Finish American prove election certainly factor. Successful deep buy religious.\nMake rest yes enough likely type create visit. After end process.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 11,
+    "fields": {
+        "cliente": 24,
+        "copa": 29,
+        "puntuacion": -13652,
+        "comentario": "Already nature beyond seem game. Candidate experience down number our just clear.\nThose what out paper space assume help. Tv weight range growth strategy federal training method.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 12,
+    "fields": {
+        "cliente": 8,
+        "copa": 16,
+        "puntuacion": -8430,
+        "comentario": "Nice field nation nature. Manage ever woman. Up work oil weight.\nMovie so beautiful sound. Age we president field benefit. Board compare theory add field court. Director push court person food soon.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 13,
+    "fields": {
+        "cliente": 4,
+        "copa": 3,
+        "puntuacion": -23857,
+        "comentario": "Eight produce his benefit move reduce. Certainly bring only vote themselves. Agreement toward oil himself tax seem. Nation blue various she hope first determine.\nMrs rise charge including sit.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 14,
+    "fields": {
+        "cliente": 21,
+        "copa": 12,
+        "puntuacion": -27206,
+        "comentario": "Doctor air policy human able least. Painting suddenly century possible contain.\nDecide certainly begin daughter can describe. Man answer perform then quality in. Chance experience certainly radio.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 15,
+    "fields": {
+        "cliente": 29,
+        "copa": 5,
+        "puntuacion": 14635,
+        "comentario": "Dog whatever produce information. Military owner compare develop sit entire. In drug none house thought. Prove score fast sign.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 16,
+    "fields": {
+        "cliente": 23,
+        "copa": 25,
+        "puntuacion": 28377,
+        "comentario": "Enjoy clearly learn community by pass put. Force meeting forget put perform heart purpose. Water help hold chance rich evening way.\nReally whatever dark about movie.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 17,
+    "fields": {
+        "cliente": 16,
+        "copa": 21,
+        "puntuacion": -3372,
+        "comentario": "Expert southern six art enjoy go.\nEven professor area decade card hot party themselves. Serious alone by discover call book. Color only bank pass respond increase maybe.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 18,
+    "fields": {
+        "cliente": 12,
+        "copa": 27,
+        "puntuacion": -24457,
+        "comentario": "Sure medical ahead station wonder. Claim author total current hospital north sign. As for agreement including.\nParent trouble authority threat however live. Truth think town image age sort.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 19,
+    "fields": {
+        "cliente": 30,
+        "copa": 19,
+        "puntuacion": -10980,
+        "comentario": "These inside make image particular. Indeed recognize understand whose stop one.\nBrother again center character power.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 20,
+    "fields": {
+        "cliente": 21,
+        "copa": 10,
+        "puntuacion": 1386,
+        "comentario": "Federal current condition cultural police sister matter like. Sound short analysis system stock majority word.\nBorn yeah minute call yet left. House speech color under in this these drug.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 21,
+    "fields": {
+        "cliente": 20,
+        "copa": 18,
+        "puntuacion": -15222,
+        "comentario": "Section serve west responsibility participant me sea. Available control occur successful near upon several. Out final affect glass.\nRange run up country.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 22,
+    "fields": {
+        "cliente": 23,
+        "copa": 25,
+        "puntuacion": 21,
+        "comentario": "Top happen tough hour. Practice result service southern. Mind create down manage serve much. Physical explain just certain manager.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 23,
+    "fields": {
+        "cliente": 4,
+        "copa": 5,
+        "puntuacion": 19870,
+        "comentario": "Way task major travel argue. Within manage decide American whom may. Quite put heavy to.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 24,
+    "fields": {
+        "cliente": 15,
+        "copa": 4,
+        "puntuacion": -10639,
+        "comentario": "Realize public audience cut threat maintain newspaper per. Ever clearly although conference.\nBy interview occur bar technology difficult first. Give art drug share moment.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 25,
+    "fields": {
+        "cliente": 25,
+        "copa": 19,
+        "puntuacion": 12705,
+        "comentario": "Up factor deal economic rich information. Result go when surface course story. Law method determine television attack whose including fill.\nMoment indeed current development.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 26,
+    "fields": {
+        "cliente": 10,
+        "copa": 14,
+        "puntuacion": -32766,
+        "comentario": "Image treat some common.\nStuff goal economy instead box. Especially wrong expect from begin. Coach source baby each.\nSpeech no wish also media full bed.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 27,
+    "fields": {
+        "cliente": 18,
+        "copa": 10,
+        "puntuacion": 26527,
+        "comentario": "Wife pull significant. Teacher manage never risk light less. Seem quickly writer.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 28,
+    "fields": {
+        "cliente": 11,
+        "copa": 28,
+        "puntuacion": -3840,
+        "comentario": "Training month operation audience hospital development term. Pm deep assume. Plant others tough consider sell.\nFactor shake significant front free reflect.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 29,
+    "fields": {
+        "cliente": 21,
+        "copa": 17,
+        "puntuacion": -15512,
+        "comentario": "Woman these onto require could Congress moment.\nFor ability artist memory. Movement level music school view if. Local approach long beautiful.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.voto",
+    "pk": 30,
+    "fields": {
+        "cliente": 12,
+        "copa": 27,
+        "puntuacion": -15729,
+        "comentario": "Artist present himself region up. Hear grow state north.\nMajor discuss people admit. Happy both order financial eight most.\nDecision window method. Day call organization owner.",
+        "fecha_hora": "2024-11-05T09:49:38.194Z"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 1,
+    "fields": {
+        "cliente": 6,
+        "numero_cuenta": "Southern until over.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 2,
+    "fields": {
+        "cliente": 3,
+        "numero_cuenta": "Share though.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 3,
+    "fields": {
+        "cliente": 1,
+        "numero_cuenta": "Scene trade mission.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 4,
+    "fields": {
+        "cliente": 10,
+        "numero_cuenta": "Again could gas.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 5,
+    "fields": {
+        "cliente": 8,
+        "numero_cuenta": "Treat special event.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 6,
+    "fields": {
+        "cliente": 2,
+        "numero_cuenta": "Happen human firm.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 7,
+    "fields": {
+        "cliente": 22,
+        "numero_cuenta": "Government quite.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 8,
+    "fields": {
+        "cliente": 26,
+        "numero_cuenta": "Prove red item.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 9,
+    "fields": {
+        "cliente": 9,
+        "numero_cuenta": "Audience how ok.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 10,
+    "fields": {
+        "cliente": 17,
+        "numero_cuenta": "Teacher everything.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 11,
+    "fields": {
+        "cliente": 5,
+        "numero_cuenta": "Onto go natural.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 12,
+    "fields": {
+        "cliente": 20,
+        "numero_cuenta": "Member small blue.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 13,
+    "fields": {
+        "cliente": 29,
+        "numero_cuenta": "Once early position.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 14,
+    "fields": {
+        "cliente": 4,
+        "numero_cuenta": "Food different.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 15,
+    "fields": {
+        "cliente": 15,
+        "numero_cuenta": "Behind race.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 16,
+    "fields": {
+        "cliente": 27,
+        "numero_cuenta": "Necessary radio.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 17,
+    "fields": {
+        "cliente": 18,
+        "numero_cuenta": "Author task next.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 18,
+    "fields": {
+        "cliente": 23,
+        "numero_cuenta": "Both true her most.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 19,
+    "fields": {
+        "cliente": 25,
+        "numero_cuenta": "Owner other staff.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 20,
+    "fields": {
+        "cliente": 21,
+        "numero_cuenta": "Appear maybe finish.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 21,
+    "fields": {
+        "cliente": 7,
+        "numero_cuenta": "Land economy after.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 22,
+    "fields": {
+        "cliente": 11,
+        "numero_cuenta": "Voice mouth serve.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 23,
+    "fields": {
+        "cliente": 16,
+        "numero_cuenta": "Term role and.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 24,
+    "fields": {
+        "cliente": 12,
+        "numero_cuenta": "Phone let born upon.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 25,
+    "fields": {
+        "cliente": 13,
+        "numero_cuenta": "Art book up glass.",
+        "banco": "ING"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 26,
+    "fields": {
+        "cliente": 30,
+        "numero_cuenta": "Everything land.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 27,
+    "fields": {
+        "cliente": 14,
+        "numero_cuenta": "Glass benefit room.",
+        "banco": "BBVA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 28,
+    "fields": {
+        "cliente": 24,
+        "numero_cuenta": "Argue employee.",
+        "banco": "UNICAJA"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 29,
+    "fields": {
+        "cliente": 28,
+        "numero_cuenta": "Big election stay.",
+        "banco": "Caixa"
+    }
+},
+{
+    "model": "examenApp.cuentabancaria",
+    "pk": 30,
+    "fields": {
+        "cliente": 19,
+        "numero_cuenta": "It visit like.",
+        "banco": "UNICAJA"
+    }
+}
+]

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #007bff;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .advanced-links {
+            margin-top: 30px;
+        }
+        .advanced-links h2 {
+            margin-bottom: 15px;
+        }
+        .advanced-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .advanced-links ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Discoteca</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'lista_clientes' %}">Clientes</a></li>
+            <li><a href="{% url 'lista_copas' %}">Productos</a></li>
+            <li><a href="{% url 'lista_favoritas' %}">Favoritas</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Explora nuestros productos y servicios</h2>
+        <p>Encuentra todo lo que necesitas en nuestra discoteca. ¡Disfruta de una experiencia de fiesta única!</p>
+
+        <div class="advanced-links">
+            <h2>Enlaces del examen</h2>
+            <ul>
+                <li><a href="{% url 'ultimo_voto_copas' copa_id=1 %}">Último Voto en Copa</a> - Muestra el último voto y comentario de una copa específicaa (copa ID=1).</li>
+               <li><a href="{% url 'copas_votadas_con_puntuacion' cliente_id=1 %}">Copas Votados con Puntuación 3</a> - Lista productos votados con una puntuación de 3 por un cliente específico.</li>
+               <li><a href="{% url 'clientes_sin_votaciones' %}">Clientes sin Votaciones</a> - Muestra todos los clientes que no han realizado ninguna votación.</li>
+               <li><a href="{% url 'por_banco_y_nombre' texto='Juan' %}">Cuentas en Caixa o Unicaja para "Juan"</a> - Muestra cuentas bancarias en Caixa o Unicaja de clientes cuyo nombre contiene "Juan".</li>
+               <li><a href="{% url 'con_media_votacion' %}">Copas con Media de Votación Mayor a 2.5</a> - Lista copas con una media de votación superior a 2.5.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
